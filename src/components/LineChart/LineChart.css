@@ -1,0 +1,43 @@
+/* LineChart.css */
+.line-chart-container {
+  background: #ffffff; /* Clean white background */
+  border-radius: 15px; /* Moderately rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* More padding for better spacing */
+  margin: 20px auto; /* Center align and space around the container */
+  max-width: 1000px; /* Reasonable max-width for most screens */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.line-chart-container:hover {
+  transform: translateY(-5px); /* Lift the container slightly on hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.line-chart-title {
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Clean sans-serif font */
+  font-size: 24px; /* Slightly smaller font size */
+  font-weight: 700; /* Bold text */
+  color: #333; /* Dark grey color */
+  margin-bottom: 20px; /* Space below the title */
+  letter-spacing: 1px; /* Spacing between letters */
+}
+
+.line-chart {
+  position: relative;
+  height: 400px; /* Adjusted height for better fit */
+  width: 100%; /* Full width of the container */
+}
+
+.chartjs-render-monitor {
+  border-radius: 10px; /* Rounded corners for the chart canvas */
+}
+
+.line-chart-legend {
+  text-align: center;
+  margin-top: 15px; /* Space above the legend */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Consistent font */
+  font-size: 14px; /* Standard font size */
+  color: #666; /* Medium grey color */
+}

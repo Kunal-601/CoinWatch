@@ -1,0 +1,9 @@
+.app-container {
+  background: linear-gradient(#ff7e5f, #feb47b); /* Example gradient */
+  height: fit-content;
+  /* display: flex;   */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}

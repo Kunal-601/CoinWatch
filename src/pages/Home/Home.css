@@ -1,0 +1,105 @@
+/* src/Home.css */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #368cdc, #5b86e5);
+  color: white;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.crypto-table {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.table-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 3fr;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.table-layout.header {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.table-layout p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.table-layout .coin-info {
+  display: flex;
+  align-items: center;
+}
+
+.table-layout .small-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.green {
+  color: #00c853;
+}
+
+.red {
+  color: #d50000;
+}
+
+.market-cap {
+  text-align: right;
+}
+.home-title {
+  font-size: 3rem;
+  color: #3498db; /* Initial color (blue shade) */
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.home-title:hover {
+  color: #2ecc71; /* Hover color (green shade) */
+}
